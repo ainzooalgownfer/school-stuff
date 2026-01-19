@@ -27,4 +27,5 @@ public class verbe_1er extends verbe{
     public String accepte(VisiteurVerb vb) {
         return vb.visite(this);
     }
+
 }

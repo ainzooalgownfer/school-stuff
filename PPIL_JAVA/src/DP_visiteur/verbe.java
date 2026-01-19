@@ -3,7 +3,7 @@ package DP_visiteur;
 //represente un verbe de la langue francaise
 public abstract class verbe {
 
-    String radical;
+    public String radical;
 
     public verbe(String infinitif) {
         int l=infinitif.trim().length();
@@ -19,11 +19,11 @@ public abstract class verbe {
      public abstract String terminison1eps();
 
      public String conjugueP1s(){
-        return "je " + this.radical+ terminison1eps();
+         return "je " + this.radical+ terminison1eps();
     }
 
     public String conjugueP1sPluriel(){
-        return "Nous " + this.radical+ terminison1epsp();
+        return "Nous " + this.radical + terminison1epsp();
     }
     public abstract String terminison1epsp();
     public abstract String terminisonInfi();

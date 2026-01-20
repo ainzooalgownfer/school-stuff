@@ -78,7 +78,7 @@ cout << "la copie a ete effacee, e = " << e << endl;			// doit afficher e = ((x+
 
 
 
-    // On passe à la suite après avoir appuyé sur une touche
+    
     cout << "\n--- Debut du test de la Derivee ---" << endl;
 
     // Représentation de f(x) = x^2 + 3x -> Plus(Fois(x, x), Fois(3, x))
